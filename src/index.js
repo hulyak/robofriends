@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import Hello from './Hello.js';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
 
 ReactDOM.render( <
   React.StrictMode >
   <
-  h1 > Hello World < /h1>, <
-  /React.StrictMode>,
+  Hello greeting = {
+    "Hello React Ninja"
+  }
+  / > , < /
+  React.StrictMode > ,
   document.getElementById('root')
 );
 
@@ -16,4 +20,4 @@ ReactDOM.render( <
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-//progressive web app
+//progressive web app 
