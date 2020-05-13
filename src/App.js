@@ -40,7 +40,7 @@ class App extends Component {
 			return (
 				<div className="tc">
 					<h1 className="f1">RoboFriends</h1>
-					<SearchBox searhChange={this.onSearchChange} />
+					<SearchBox searchChange={this.onSearchChange} />
 					<Scroll>
 						<CardList robots={filteredRobots} />;
 					</Scroll>
