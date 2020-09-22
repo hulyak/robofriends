@@ -9898,3 +9898,5 @@ patch:
         patched: '2020-08-30T00:50:12.452Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-08-30T00:50:12.452Z'
+    - snyk > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2020-08-30T01:03:40.519Z'
